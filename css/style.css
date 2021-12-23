@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+h1 {
+  text-align: center;
+}
+main {
+  background-color: #ffcc22;
+
+  height: 100%;
+  display: flex;
+  _flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main section {
+  background-color: #fff;
+  padding: 4vmin;
+  border-radius: 2vmin;
+}
+
+footer p {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
